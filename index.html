@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pousada Chalana – Hospedagem em Ribeira do Pombal, BA</title>
+<meta name="description" content="Pousada Chalana em Ribeira do Pombal-BA: 24 quartos com ar-condicionado e TV, Wi-Fi, café da manhã, estacionamento, academia e recepção 24 horas. Aceitamos pets.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pousada Chalana – Ribeira do Pombal, BA">
+<meta property="og:description" content="Conforto, café da manhã caprichado e recepção 24h a 10 minutos a pé do centro de Ribeira do Pombal.">
+<meta property="og:image" content="img/fachada.jpg">
+<meta property="og:locale" content="pt_BR">
+<meta name="theme-color" content="#123a63">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23123a63'/%3E%3Ctext x='32' y='44' font-family='Arial' font-weight='700' font-size='36' text-anchor='middle' fill='%23f4b73b'%3EC%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LodgingBusiness",
+  "name": "Pousada Chalana",
+  "image": "img/fachada.jpg",
+  "numberOfRooms": 24,
+  "petsAllowed": true,
+  "checkinTime": "12:00",
+  "checkoutTime": "12:00",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Abelardo Gama, 556",
+    "addressLocality": "Ribeira do Pombal",
+    "addressRegion": "BA",
+    "addressCountry": "BR"
+  },
+  "amenityFeature": [
+    {"@type": "LocationFeatureSpecification", "name": "Wi-Fi", "value": true},
+    {"@type": "LocationFeatureSpecification", "name": "Estacionamento", "value": true},
+    {"@type": "LocationFeatureSpecification", "name": "Recepção 24 horas", "value": true},
+    {"@type": "LocationFeatureSpecification", "name": "Academia", "value": true},
+    {"@type": "LocationFeatureSpecification", "name": "Ar-condicionado", "value": true}
+  ],
+  "sameAs": ["https://www.instagram.com/pousadachalana/"]
+}
+</script>
+<script>
+  /* ===== CONFIGURAÇÃO =====
+     Coloque aqui o WhatsApp da pousada, só números, com 55 + DDD.
+     Exemplo: "5575999998888"
+     Enquanto estiver vazio, os botões de reserva levam ao Instagram. */
+  const WHATSAPP = "";
+  const INSTAGRAM = "pousadachalana";
+</script>
+</head>
+<body>
+
+<header class="topo" id="topo">
+  <div class="wrap topo-in">
+    <a href="#inicio" class="marca" aria-label="Pousada Chalana – início">
+      <span class="marca-c">C</span>
+      <span class="marca-txt"><strong>Chalana</strong><small>Pousada · Ribeira do Pombal</small></span>
+    </a>
+    <nav id="menu" class="menu" aria-label="Principal">
+      <a href="#quartos">Quartos</a>
+      <a href="#estrutura">Estrutura</a>
+      <a href="#cafe">Café da manhã</a>
+      <a href="#fotos">Fotos</a>
+      <a href="#localizacao">Localização</a>
+    </nav>
+    <a class="btn btn-sol topo-btn js-reserva" data-msg="Olá! Gostaria de fazer uma reserva na Pousada Chalana." href="#contato">Reservar</a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <img class="hero-img" src="img/fachada.jpg" alt="Fachada da Pousada Chalana em Ribeira do Pombal" fetchpriority="high">
+  <div class="hero-veu"></div>
+  <div class="wrap hero-in">
+    <div class="hero-txt">
+      <span class="chip">📍 Ribeira do Pombal · Bahia</span>
+      <h1>Seu descanso<br>em Ribeira do Pombal<span class="ponto">.</span></h1>
+      <p>Quartos climatizados, café da manhã caprichado e recepção 24 horas — a 10 minutos a pé do centro.</p>
+    </div>
+    <form class="reserva" id="form-reserva">
+      <h2>Consulte sua estadia</h2>
+      <div class="dupla">
+        <label>Entrada<input type="date" name="entrada" required></label>
+        <label>Saída<input type="date" name="saida" required></label>
+      </div>
+      <label>Quarto
+        <select name="quarto">
+          <option>Casal</option><option>Triplo</option><option>Quádruplo</option><option>Ainda não sei</option>
+        </select>
+      </label>
+      <button class="btn btn-sol largo" type="submit">Consultar disponibilidade</button>
+      <p class="reserva-nota js-canal">Resposta rápida pelo WhatsApp</p>
+    </form>
+  </div>
+</section>
+
+<!-- DESTAQUES -->
+<section class="destaques" aria-label="Destaques">
+  <div class="wrap dest-in">
+    <div><strong>24</strong><span>quartos</span></div>
+    <div><strong>24h</strong><span>recepção</span></div>
+    <div><strong>12h</strong><span>check-in e check-out</span></div>
+    <div><strong>🐾</strong><span>aceitamos pets</span></div>
+  </div>
+</section>
+
+<!-- QUARTOS (abas) -->
+<section class="secao" id="quartos">
+  <div class="wrap">
+    <div class="titulo">
+      <span class="tag">Acomodações</span>
+      <h2>Um quarto para cada viagem</h2>
+      <p>Todos com ar-condicionado, TV de tela plana, Wi-Fi e banheiro privativo. Só para não fumantes.</p>
+    </div>
+
+    <div class="abas" role="tablist" aria-label="Tipos de quarto">
+      <button role="tab" aria-selected="true" aria-controls="q-casal" id="t-casal">Casal</button>
+      <button role="tab" aria-selected="false" aria-controls="q-triplo" id="t-triplo" tabindex="-1">Triplo</button>
+      <button role="tab" aria-selected="false" aria-controls="q-quadruplo" id="t-quadruplo" tabindex="-1">Quádruplo</button>
+    </div>
+
+    <div class="painel" role="tabpanel" id="q-casal" aria-labelledby="t-casal">
+      <div class="painel-fotos">
+        <img class="grande" src="img/casal-1.jpg" alt="Quarto de casal com ar-condicionado" loading="lazy">
+        <img src="img/casal-2.jpg" alt="Cama de casal com enxoval branco" loading="lazy">
+        <img src="img/casal-mesa.jpg" alt="Quarto de casal com mesa e cadeiras" loading="lazy">
+      </div>
+      <div class="painel-txt">
+        <h3>Quarto Casal</h3>
+        <p class="cap">Até 2 pessoas</p>
+        <p>Cama de casal, ambiente claro e silencioso — ideal para casais e para quem viaja a trabalho.</p>
+        <ul class="lista">
+          <li>Cama de casal</li><li>Ar-condicionado</li><li>TV de tela plana</li><li>Wi-Fi</li><li>Banheiro privativo</li>
+        </ul>
+        <a class="btn btn-azul js-reserva" data-msg="Olá! Gostaria de saber o valor do Quarto Casal na Pousada Chalana." href="#contato">Consultar valor</a>
+      </div>
+    </div>
+
+    <div class="painel" role="tabpanel" id="q-triplo" aria-labelledby="t-triplo" hidden>
+      <div class="painel-fotos">
+        <img class="grande" src="img/triplo-1.jpg" alt="Quarto triplo com cama de casal e de solteiro" loading="lazy">
+        <img src="img/casal-4.jpg" alt="Quarto com cômoda e TV" loading="lazy">
+        <img src="img/banheiro-2.jpg" alt="Banheiro privativo com box" loading="lazy">
+      </div>
+      <div class="painel-txt">
+        <h3>Quarto Triplo</h3>
+        <p class="cap">Até 3 pessoas</p>
+        <p>Espaço para a família ou para colegas de viagem, com o mesmo conforto dos demais quartos.</p>
+        <ul class="lista">
+          <li>Casal + solteiro</li><li>Ar-condicionado</li><li>TV de tela plana</li><li>Wi-Fi</li><li>Banheiro privativo</li>
+        </ul>
+        <a class="btn btn-azul js-reserva" data-msg="Olá! Gostaria de saber o valor do Quarto Triplo na Pousada Chalana." href="#contato">Consultar valor</a>
+      </div>
+    </div>
+
+    <div class="painel" role="tabpanel" id="q-quadruplo" aria-labelledby="t-quadruplo" hidden>
+      <div class="painel-fotos">
+        <img class="grande" src="img/quadruplo-1.jpg" alt="Quarto amplo com várias camas" loading="lazy">
+        <img src="img/quadruplo-2.jpg" alt="Quarto com cama de casal e TV" loading="lazy">
+        <img src="img/banheiro-3.jpg" alt="Banheiro com box de vidro" loading="lazy">
+      </div>
+      <div class="painel-txt">
+        <h3>Quarto Quádruplo</h3>
+        <p class="cap">Até 4 pessoas</p>
+        <p>O mais espaçoso da casa: perfeito para famílias e equipes de trabalho.</p>
+        <ul class="lista">
+          <li>Camas para 4</li><li>Ar-condicionado</li><li>TV de tela plana</li><li>Wi-Fi</li><li>Banheiro privativo</li>
+        </ul>
+        <a class="btn btn-azul js-reserva" data-msg="Olá! Gostaria de saber o valor do Quarto Quádruplo na Pousada Chalana." href="#contato">Consultar valor</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ESTRUTURA -->
+<section class="secao estrutura" id="estrutura">
+  <div class="wrap">
+    <div class="titulo claro">
+      <span class="tag">Estrutura</span>
+      <h2>Tudo o que você precisa, sem complicação</h2>
+    </div>
+    <div class="bento">
+      <article class="b-foto b-academia"><img src="img/academia.jpg" alt="Academia com esteira e estação de musculação" loading="lazy"><div><h3>Academia</h3><p>Esteira, estação de musculação e mini-trampolins para não perder o treino.</p></div></article>
+      <article class="b-card"><span class="ico">🕐</span><h3>Recepção 24 horas</h3><p>Chegou tarde da estrada? Tem sempre alguém para te receber.</p></article>
+      <article class="b-card"><span class="ico">🚗</span><h3>Estacionamento</h3><p>Lugar para o seu carro na própria pousada.</p></article>
+      <article class="b-card amarelo"><span class="ico">🐾</span><h3>Pets são bem-vindos</h3><p>Seu bichinho pode vir junto. Avise na reserva.</p></article>
+      <article class="b-card"><span class="ico">📶</span><h3>Wi-Fi</h3><p>Internet para trabalhar, estudar ou falar com a família.</p></article>
+      <article class="b-foto b-sala"><img src="img/sala-estar.jpg" alt="Sala de estar com sofá" loading="lazy"><div><h3>Sala de estar</h3><p>Um cantinho para conversar e relaxar.</p></div></article>
+      <article class="b-card"><span class="ico">🛎️</span><h3>Serviço de quarto</h3><p>Precisa de algo? É só pedir na recepção.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- CAFÉ -->
+<section class="secao cafe" id="cafe">
+  <div class="wrap cafe-in">
+    <div class="cafe-txt">
+      <span class="tag">Café da manhã</span>
+      <h2>Comece o dia com a mesa farta</h2>
+      <p>Pão quentinho, frios, frutas da estação e café passado na hora, servidos no nosso refeitório amplo e iluminado.</p>
+      <ul class="cafe-itens">
+        <li>🥖 Pães fresquinhos</li><li>🍉 Frutas da estação</li><li>🧀 Frios e queijos</li><li>☕ Café, leite e sucos</li>
+      </ul>
+    </div>
+    <div class="cafe-fotos">
+      <img class="c1" src="img/paes.jpg" alt="Cesta de pães franceses" loading="lazy">
+      <img class="c2" src="img/cafe-frutas.jpg" alt="Prato com melancia, mamão e melão" loading="lazy">
+      <img class="c3" src="img/refeitorio.jpg" alt="Refeitório com mesas e cadeiras" loading="lazy">
+      <img class="c4" src="img/cafe-frios.jpg" alt="Prato com frios e frutas" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- GALERIA -->
+<section class="secao" id="fotos">
+  <div class="wrap">
+    <div class="titulo">
+      <span class="tag">Galeria</span>
+      <h2>Conheça a pousada</h2>
+      <p>Toque em uma foto para ampliar.</p>
+    </div>
+    <div class="galeria">
+      <button><img src="img/fachada.jpg" alt="Fachada" loading="lazy"></button>
+      <button><img src="img/recepcao.jpg" alt="Recepção" loading="lazy"></button>
+      <button><img src="img/casal-3.jpg" alt="Quarto de casal" loading="lazy"></button>
+      <button><img src="img/corredor.jpg" alt="Corredor dos quartos" loading="lazy"></button>
+      <button><img src="img/copa.jpg" alt="Copa" loading="lazy"></button>
+      <button><img src="img/banheiro-1.jpg" alt="Banheiro" loading="lazy"></button>
+      <button><img src="img/quarto-claro.jpg" alt="Quarto iluminado" loading="lazy"></button>
+      <button><img src="img/cafe-preparo.jpg" alt="Equipe preparando o café da manhã" loading="lazy"></button>
+      <button><img src="img/corredor-3.jpg" alt="Corredor" loading="lazy"></button>
+      <button><img src="img/banheiro-4.jpg" alt="Banheiro com pia" loading="lazy"></button>
+    </div>
+  </div>
+</section>
+
+<!-- LOCALIZAÇÃO + CONTATO -->
+<section class="secao local" id="localizacao">
+  <div class="wrap local-in">
+    <div id="contato">
+      <span class="tag">Localização e contato</span>
+      <h2>Fácil de chegar</h2>
+      <p class="endereco">Rua Abelardo Gama, 556<br>Ribeira do Pombal – BA</p>
+      <ul class="perto">
+        <li><strong>10 min</strong> a pé do centro</li>
+        <li><strong>1,2 km</strong> da Praça da Juventude</li>
+      </ul>
+      <div class="acoes">
+        <a class="btn btn-sol js-reserva" data-msg="Olá! Gostaria de mais informações sobre a Pousada Chalana." href="#contato"><span class="js-canal-btn">Falar com a pousada</span></a>
+        <a class="btn btn-linha" href="https://www.instagram.com/pousadachalana/" target="_blank" rel="noopener">@pousadachalana</a>
+      </div>
+      <dl class="regras">
+        <div><dt>Check-in</dt><dd>a partir das 12h</dd></div>
+        <div><dt>Check-out</dt><dd>até as 12h</dd></div>
+        <div><dt>Fumantes</dt><dd>quartos para não fumantes</dd></div>
+        <div><dt>Berço</dt><dd>não disponível</dd></div>
+      </dl>
+    </div>
+    <div class="mapa">
+      <iframe title="Mapa da Pousada Chalana" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps?q=Rua+Abelardo+Gama,+556,+Ribeira+do+Pombal+-+BA&output=embed"></iframe>
+      <a href="https://www.google.com/maps/search/?api=1&query=Rua+Abelardo+Gama+556+Ribeira+do+Pombal+BA" target="_blank" rel="noopener">Abrir rota no Google Maps →</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="rodape">
+  <div class="wrap rodape-in">
+    <a href="#inicio" class="marca claro">
+      <span class="marca-c">C</span>
+      <span class="marca-txt"><strong>Chalana</strong><small>Pousada · Ribeira do Pombal</small></span>
+    </a>
+    <p>© <span id="ano">2026</span> Pousada Chalana · Rua Abelardo Gama, 556 · Ribeira do Pombal – BA</p>
+    <p class="credito">Desenvolvido por <a href="https://codingtechti.vercel.app" target="_blank" rel="noopener">CodingTech</a></p>
+  </div>
+</footer>
+
+<a class="flutuante js-reserva" data-msg="Olá! Gostaria de mais informações sobre a Pousada Chalana." href="#contato" aria-label="Falar com a pousada">
+  <svg class="js-ico-zap" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm0 18.15a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 4.54 0 8.24 3.7 8.24 8.24 0 4.55-3.7 8.24-8.24 8.24Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.42h-.48c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.23-.16-.48-.29Z"/></svg>
+  <svg class="js-ico-insta" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".9" fill="currentColor"/></g></svg>
+</a>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lb-fechar" aria-label="Fechar">×</button>
+  <button class="lb-nav lb-ant" aria-label="Foto anterior">‹</button>
+  <img alt="">
+  <button class="lb-nav lb-prox" aria-label="Próxima foto">›</button>
+</div>
+
+<script>
+  // Contato: WhatsApp se configurado, senão Instagram (Direct)
+  const temZap = WHATSAPP.replace(/\D/g, '').length >= 12;
+  const linkContato = msg => temZap
+    ? 'https://wa.me/' + WHATSAPP.replace(/\D/g, '') + '?text=' + encodeURIComponent(msg)
+    : 'https://ig.me/m/' + INSTAGRAM;
+  document.querySelectorAll('.js-reserva').forEach(a => {
+    a.href = linkContato(a.dataset.msg);
+    a.target = '_blank'; a.rel = 'noopener';
+  });
+  document.querySelectorAll('.js-canal').forEach(e => e.textContent = temZap ? 'Resposta rápida pelo WhatsApp' : 'Resposta pelo Direct do Instagram');
+  document.querySelectorAll('.js-canal-btn').forEach(e => e.textContent = temZap ? 'Chamar no WhatsApp' : 'Mandar mensagem');
+  document.body.classList.add(temZap ? 'com-zap' : 'sem-zap');
+
+  // Menu celular
+  const mb = document.querySelector('.menu-btn'), menu = document.getElementById('menu');
+  mb.addEventListener('click', () => { const a = menu.classList.toggle('aberto'); mb.setAttribute('aria-expanded', a); mb.classList.toggle('x', a); });
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { menu.classList.remove('aberto'); mb.classList.remove('x'); mb.setAttribute('aria-expanded', false); }));
+  addEventListener('scroll', () => document.getElementById('topo').classList.toggle('rolado', scrollY > 30), { passive: true });
+
+  // Abas de quartos
+  const abas = [...document.querySelectorAll('[role=tab]')];
+  const abrir = t => {
+    abas.forEach(b => { const on = b === t; b.setAttribute('aria-selected', on); b.tabIndex = on ? 0 : -1; document.getElementById(b.getAttribute('aria-controls')).hidden = !on; });
+  };
+  abas.forEach((b, i) => {
+    b.addEventListener('click', () => abrir(b));
+    b.addEventListener('keydown', e => {
+      const d = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+      if (d) { const n = abas[(i + d + abas.length) % abas.length]; abrir(n); n.focus(); }
+    });
+  });
+
+  // Formulário
+  const fmt = d => d ? d.split('-').reverse().join('/') : '';
+  const f = document.getElementById('form-reserva');
+  const hoje = new Date().toISOString().slice(0, 10);
+  f.entrada.min = hoje; f.saida.min = hoje;
+  f.entrada.addEventListener('change', () => f.saida.min = f.entrada.value);
+  f.addEventListener('submit', e => {
+    e.preventDefault();
+    const msg = `Olá! Gostaria de consultar disponibilidade na Pousada Chalana.\nQuarto: ${f.quarto.value}\nEntrada: ${fmt(f.entrada.value)}\nSaída: ${fmt(f.saida.value)}`;
+    if (!temZap && navigator.clipboard) navigator.clipboard.writeText(msg).catch(() => {});
+    window.open(linkContato(msg), '_blank', 'noopener');
+  });
+
+  // Galeria com ampliação
+  const lb = document.getElementById('lightbox'), lbImg = lb.querySelector('img');
+  const fotos = [...document.querySelectorAll('.galeria img')];
+  let atual = 0;
+  const mostrar = i => { atual = (i + fotos.length) % fotos.length; lbImg.src = fotos[atual].src; lbImg.alt = fotos[atual].alt; };
+  fotos.forEach((img, i) => img.parentElement.addEventListener('click', () => { mostrar(i); lb.hidden = false; lb.querySelector('.lb-fechar').focus(); }));
+  lb.querySelector('.lb-fechar').addEventListener('click', () => lb.hidden = true);
+  lb.querySelector('.lb-ant').addEventListener('click', () => mostrar(atual - 1));
+  lb.querySelector('.lb-prox').addEventListener('click', () => mostrar(atual + 1));
+  lb.addEventListener('click', e => { if (e.target === lb) lb.hidden = true; });
+  addEventListener('keydown', e => {
+    if (lb.hidden) return;
+    if (e.key === 'Escape') lb.hidden = true;
+    if (e.key === 'ArrowRight') mostrar(atual + 1);
+    if (e.key === 'ArrowLeft') mostrar(atual - 1);
+  });
+
+  document.getElementById('ano').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
